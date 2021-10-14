@@ -5,26 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghibili Review App</title>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script> <!--js link-->
+    <link rel="stylesheet" href="style.css" /> <!--css link-->
 </head>
         <body>
             <header>
+                <!--logo image-->
                 <h1>Ghibili Review App</h1>
                 <div class="header-img"></div>    
-                <img src="images/ghibli-logo.png" width="auto" height="auto">
+                <img src="./images/ghibli-logo.png" alt='Studio Ghibili Logo'>
             </header>
+
         <select id="movie-titles">
         <option value="movie-titles">--Please Select A Movie--</option>
-        </select>
+        </select> <!--movie titles go here-->
 
-        <main>
+
             <form name="review">
-                <label for="review">Your Review</label>
+                <label for="review"><strong>Your Review</strong></label>
                 <input type="text" id="review" name="review"/> <!--event.target.review.value-->
                 <input type="submit" value='Submit Review'></input>
                 <!--value = button name-->
                 </form>
-        </main>
+<ul></ul> <!--user reviews go here-->
+     
         </body>
 </html>
