@@ -11,13 +11,20 @@
         <body>
             <header>
                 <h1>Ghibili Review App</h1>
-                <main>
                 <div class="header-img"></div>    
-                <img src="images/ghibli-logo.png" width="400" height="400">
-            </main>
-        </select>
-    </header>
-    <select id="movie-titles">
+                <img src="images/ghibli-logo.png" width="auto" height="auto">
+            </header>
+        <select id="movie-titles">
         <option value="movie-titles">--Please Select A Movie--</option>
+        </select>
+
+        <main>
+            <form name="review">
+                <label for="review">Your Review</label>
+                <input type="text" id="review" name="review"/> <!--event.target.review.value-->
+                <input type="submit" value='Submit Review'></input>
+                <!--value = button name-->
+                </form>
+        </main>
         </body>
 </html>
