@@ -1,0 +1,22 @@
+body{
+    background-color: lavender;
+}
+
+header{
+    background-color: skyblue;
+    width: 75%;
+    height: auto;
+    text-align: center;
+}
+
+h1{
+    text-align: right;
+    font-family: monospace;
+}
+
+.header-img{
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    max-height: 400px;
+}
